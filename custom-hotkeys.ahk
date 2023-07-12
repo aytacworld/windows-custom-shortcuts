@@ -29,19 +29,25 @@
   return
 }
 
-; Open Mail app (Outlook)
+; Open Mail app
 #m::{
   Run "outlook.exe"
   return
 }
 
-; Open Browser app (Chrome)
+; Open Browser app
 #b::{
   Run "chrome.exe -homepage `"about:blank`""
   return
 }
 
-; Open VS Code
+; Open Browser app (Incognito)
++#b::{
+  Run "chrome.exe -homepage `"about:blank`" -incognito"
+  return
+}
+
+; Open Editor
 #c::{
   Run "C:\Users\AAytac\AppData\Local\Programs\Microsoft VS Code\bin\code"
   return

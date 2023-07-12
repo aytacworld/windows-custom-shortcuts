@@ -24,12 +24,18 @@
         align-items: center;
     min-width: 10em;
       }
-      .start {
+
+      i {
         display: inline-block;
         width: 24px;
         height: 24px;
-        background-image: url(./win.png);
         background-size: cover;
+      }
+      .start {
+        background-image: url(./win.png);
+      }
+      .shift {
+        background-image: url(./shift.png);
       }
     </style>
   </head>
@@ -84,6 +90,12 @@
         <td><i class="start"></i> + b</td>
         <td>Open Browser</td>
         <td>Chrome</td>
+      </tr>
+
+      <tr>
+        <td><i class="start"></i> + <i class="shift"></i> + b</td>
+        <td>Open Browser</td>
+        <td>Chrome (Incognito)</td>
       </tr>
 
       <tr>
