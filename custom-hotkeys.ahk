@@ -47,6 +47,12 @@
   return
 }
 
+; Open Invidious webpage  (Incognito)
++#y::{
+  Run "chrome.exe -homepage `"https://yewtu.be/`" -incognito"
+  return
+}
+
 ; Open Editor
 #c::{
   Run "C:\Users\AAytac\AppData\Local\Programs\Microsoft VS Code\bin\code"
