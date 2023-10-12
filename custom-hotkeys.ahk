@@ -53,6 +53,12 @@
   return
 }
 
+; Open Qmusic webpage  (Incognito)
++#u::{
+  Run "chrome.exe -homepage `"https://qmusic.be/luister/qmusic_be`" -incognito"
+  return
+}
+
 ; Open Editor
 #c::{
   Run "C:\Users\AAytac\AppData\Local\Programs\Microsoft VS Code\bin\code"
